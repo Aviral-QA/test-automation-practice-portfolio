@@ -4,6 +4,7 @@ class FormPage:
     def __init__(self, page):
         self.page = page
         self.name_field = page.locator("#name")
+        self.email_field = page.locator("#email")
         self.tuesday_checkbox = page.locator("#tuesday")
         self.country_dropdown = page.locator("#country")
 
