@@ -9,8 +9,8 @@ def test_fill_name_field(page):
 def test_fill_email_field(page):
     form = FormPage(page)
     form.goto()
-    form.fill_name("aviral@outlook.com")
-    assert form.name_field.input_value() == "aviral@outlook.com"
+    form.fill_name("aviral@gmail.com")
+    assert form.name_field.input_value() == "aviral@gmail.com"
 
 def test_check_tuesday_checkbox(page):
     form = FormPage(page)
