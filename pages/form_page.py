@@ -14,6 +14,9 @@ class FormPage:
     def fill_name(self, name):
         self.name_field.fill(name)
 
+    def fill_name(self, email):
+        self.name_field.fill(email)
+
     def check_tuesday(self):
         self.tuesday_checkbox.check()
 
